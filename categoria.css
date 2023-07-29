@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+/*Paleta de cores
+
+#025259 - Azul escuro
+#007172 - Azul médio
+#F29325 - Amarelo
+#D94F04 - Laranja
+#F4E2DE - Marfim
+
+*/
+
+:root {
+    --azulEscuro: #025259;
+    --azulMedio: #007172;
+    --amarelo: #F29325;
+    --laranja: #D94F04;
+    --marfim: #F4E2DE;
+    --preto: #1d1d1d;
+    --branco: #d1d1d1;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 80px 80vh 40vh 40vh 40vh 40vh 40vh;
+    background-color: var(--branco);
+}
+
+.inicio {
+    grid-column: 1/4;
+    grid-template-rows: 1/2;
+}
+
+.chamada {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 250px 250px;
+}
+
+.chamada img {
+    border-radius: 200px;
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+.chamada h1{
+    color: var(--amarelo);
+    align-self: end;
+}
+
+.chamada p {
+    color: #007172;
+    background-color: var(--marfim);
+    background-clip: padding-box;
+    padding-right: 20px;
+    
+
+}
+
+
+
+
+
+
+/*
+
+
+chamadaTitle
+bauTxt
+bauImg
+bauImg02
+gerImg
+getTxt
+gerImg2
+aeTriImg
+aeTriImg1
+aeTriTxt
+miuImg
+miuImg1
+miuTxt
+tripTxt
+tripImg
+tripImg1
+aetriiImg
+aeTriiTxt
+aeTriiImg2
+logo
+
+*/
