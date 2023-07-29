@@ -10,7 +10,7 @@
     --azulMedio: #007172;
     --amarelo: #F29325;
     --laranja: #D94F04;
-    --marfim: #F4E2DE;
+    --marfim: #faede1;
     --preto: #1d1d1d;
     --branco: #d1d1d1;
 } 
@@ -128,12 +128,124 @@ ul {
         justify-content: center;
         text-align: right;
         gap:30px;
-        background-color: var(--marfim);
+        background-color: var(--amarelo);
         height: 65%;
+        padding: 30px;
+        width: 300px;
+        
+        
+    }
+
+    .ger p, .ger ul, .ger h2 {
+        color: white;
+    }
+
+    /*------------------------começa a ae--------------------------*/
+
+
+    .ae {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    .ae img {
+        width: 500px;
+    }
+
+    .ae div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: right;
+        gap:30px;
+        background-color: var(--marfim);
+        height: 75%;
+        padding: 30px;
+        width: 300px;
+        border-radius: 300px;
+    }
+
+    /*------------------------começa a miu--------------------------*/
+
+
+    .miu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    .miu img {
+        width: 500px;
+    }
+
+    .miu div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: right;
+        gap:30px;
+        background-color: var(--marfim);
+        height: 75%;
+        padding: 30px;
+        width: 300px;
+        border-radius: 300px;
+    }
+
+     /*------------------------começa a trip--------------------------*/
+
+
+     .trip {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    .trip img {
+        width: 800px;
+    }
+
+    .trip div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: right;
+        gap:30px;
+        background-color: var(--amarelo);
+        height: 75%;
         padding: 30px;
         width: 300px;
     }
 
+     /*------------------------começa a ae tri--------------------------*/
+
+
+     .aeTri {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    .aeTri img {
+        width: 600px;
+    }
+
+    .aeTri div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: right;
+        gap:30px;
+        background-color: var(--marfim);
+        height: 75%;
+        padding: 30px;
+        width: 300px;
+        border-radius: 300px;
+    }
 
 
 }
