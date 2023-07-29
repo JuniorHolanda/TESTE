@@ -1,22 +1,9 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;700&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-
-/*Paleta de cores
-
-#025259 - Azul escuro
-#007172 - Azul médio
-#F29325 - Amarelo
-#D94F04 - Laranja
-#F4E2DE - Marfim
-
-*/
-
-
+@font-face {
+    font-family: begika;
+    src: url(font/Begika.ttf) format('truetype') ;
+}
 
 :root {
     --azulEscuro: #025259;
@@ -32,10 +19,30 @@
     margin: 0px;
     padding: 0px;
     list-style-type: none;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
 }
 
-/*------------------------------Desktop-------------------------------*/
+h1, h2 {
+    font-family: 'begika', Times, serif;
+}
+
+p, h2 {
+    color: var(--azulEscuro);
+    
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ul {
+    color: var(--laranja);
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/*******************************Desktop***********************************/
 
 @media (min-width: 1000px) {
 
@@ -79,9 +86,10 @@
         
     }
 
+    /*------------------------começa a bau--------------------------*/
+
     .bau {
         display: flex;
-        border: solid;
         align-items: center;
         justify-content: center;
         height: 100vh;
@@ -90,24 +98,52 @@
     }
 
     .bau div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: right;
+        gap:30px;
         background-color: var(--marfim);
-        height: 50%;
+        height: 65%;
         padding: 30px;
+        width: 300px;
     }
+
+    /*------------------------começa a ger--------------------------*/
+
+    .ger {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    .ger img {
+        width: 500px;
+    }
+
+    .ger div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: right;
+        gap:30px;
+        background-color: var(--marfim);
+        height: 65%;
+        padding: 30px;
+        width: 300px;
+    }
+
+
 
 }
 
-/*----------------tablet---------------*/
+/*************************************tablet************************************/
     
 @media (min-width: 701px) and (max-width: 1000px) {
 
 
-    .containerPrincipal {
-        display: flex;
-        flex-direction: column;
-        
-    }
-
+   
     .chamada {
         display: flex;
         width: auto;
@@ -151,12 +187,10 @@
         
     }
 
-    /** fim da página de chamada*/
-
 }
 
 
-/*----------------celular---------------*/
+/*********************************celular***********************************/
     
 @media (min-width: 0px) and (max-width: 700px) {
 
